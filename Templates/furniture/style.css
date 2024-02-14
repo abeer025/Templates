@@ -1,0 +1,25 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.socialMediaIcons {
+    order: 2;
+}
+
+.navbar-brand {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    left: 0;
+    position: absolute; */
+    display: inline-block;
+    order: 2;
+}
+
+.navbar-toggler{
+    order: 1;
+}
