@@ -1,0 +1,36 @@
+.productCard {
+    height: 400px;
+    border-radius: 15px;
+    background-image: url('https://m.media-amazon.com/images/I/61ZjlBOp+rL.jpg');
+    background-size: cover;
+}
+
+.trns {
+    display: none;
+}
+
+.productCard:hover .trns {
+    display: block;
+    border-radius: 15px;
+    transition: .5s;
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    color: white;
+}
+
+
+.contentCard {
+    height: 400px;
+    background-color: white;
+}
+
+.contentCard:hover .blackTransparent {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+.contentCard:hover {
+    background-image: url('https://media.istockphoto.com/id/1372077120/photo/over-the-shoulder-view-of-young-asian-sports-woman-checks-her-fitness-statistics-on.jpg?s=612x612&w=0&k=20&c=BFek-9Ag5mPF2KU4_BAQV0iPDUetTaDrE4j3E5JaUcE=');
+    background-size: cover;
+}
+
